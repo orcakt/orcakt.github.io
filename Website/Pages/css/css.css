@@ -1,0 +1,160 @@
+/*
+Red     Green   Blue
+FCC     CFC     CCF
+F00     0F0     00F
+300     030     003
+*/
+
+html{
+    background-color: #000;
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+    color: #0F0;
+}
+a:visited{
+    text-decoration: none;
+    color: #F00;
+}
+
+[class^="padding"]{
+    color: #000;
+    background-color: #F00;
+    border: 10px double #800;
+    width: 460px;
+}
+.padding1{
+    padding: 100px;
+}
+.padding2{
+    padding: 50px 100px;
+}
+.padding3{
+    padding: 20px 40px 80px 150px;
+}
+
+[class^="margin"]{
+    color: #000;
+    background-color: #0F0;
+    border: 20px double #080;
+    width: 360px;
+    padding: 50px;
+}
+.margin2{
+    margin-left: 50px;
+}
+.margin3{
+    margin-left: 150px;
+}
+
+[class^="hover"]{
+    color: #FFF;
+    background-color: #44F;
+    border: 30px double #008;
+    width: 460px;
+    padding: 50px;
+    margin: 50px;
+}
+.hover2:hover{
+    
+    background-color: #CCF;
+    transition: background-color 4s;
+} 
+.hover3:hover{
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+
+table{
+    color: #FFF;
+    border-collapse: collapse;
+    width: 640px;
+    margin: 50px;
+}
+td,th{
+    border: 10px double #800;
+    padding: 10px;
+}
+.tbl1{
+    background-color: #A00;
+    color: #F55;
+}
+.tbl2{
+    background-color: #800;
+    color: #F77;
+}
+.tbl3{
+    background-color: #700;
+    color: #F88;
+}
+.tbl4{
+    background-color: #600;
+    color: #F99;
+}
+.tbl5{
+    background-color: #400;
+    color: #FBB;
+}
+
+[class^="pos"]{
+    color: #000;
+    background-color: #0F0;
+    border: 20px double #080;
+    width: 360px;
+    padding: 50px;
+    margin: 50px;
+}
+.pos1{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.pos2{
+    position: absolute;
+    top: 3200px;
+    left: 640px;
+}
+.pos3{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+[class^="sm_shad"]{
+    color: #FFF;
+    background-color: #44F;
+    border: 30px double #008;
+    width: 320px;
+    padding: 50px;
+    margin-left: 25px;
+}
+[class^="bg_shad"]{
+    color: #FFF;
+    background-color: #44F;
+    border: 30px double #008;
+    width: 320px;
+    padding: 50px;
+    position: relative;
+    left: 600px;
+    bottom: 245px;
+}
+.sm_shad1{
+    box-shadow: 5px 0px 0px #99F;
+}
+.bg_shad1{
+    box-shadow: 150px 0px 0px #99F;
+}
+.sm_shad2{
+    box-shadow: 0px 5px 0px #99F;
+}
+.bg_shad2{
+    box-shadow: 0px 150px 0px #99F;
+}
+.sm_shad3{
+    box-shadow: 0px 0px 5px #99F;
+}
+.bg_shad3{
+    box-shadow: 0px 0px 150px #99F;
+}
