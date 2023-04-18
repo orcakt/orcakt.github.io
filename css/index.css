@@ -1,0 +1,75 @@
+/*
+Red     Green   Blue
+FCC     CFC     CCF
+F00     0F0     00F
+300     030     003
+*/
+
+img{
+    display: block;
+    width: 320px;
+    margin: auto;
+}
+
+h3{
+    position: relative;
+    left: 5px;
+    bottom: 20px;
+}
+
+.about{
+    display: block;
+    width: 360px;
+    margin: 20px auto;
+}
+
+
+
+/* TABLET LAYOUT */
+
+@media only screen and (min-width: 768px){
+
+img{
+    margin-left: 5%;
+}
+
+.about{
+    width: 45%;
+    position: relative;
+    left: 200px;
+    bottom: 360px;
+}
+
+footer{
+    margin-top: -100px;
+}
+}
+
+
+/* DESKTOP LAYOUT */
+
+@media only screen and (min-width: 992px){
+
+img{
+    margin-left: 10%;
+}
+
+.about{
+    width: 360px;
+    position: relative;
+    bottom: 360px;
+}
+
+footer{
+    margin-top: -150px;
+}
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    img{
+        margin-left: 15%;
+    }
+    
+}

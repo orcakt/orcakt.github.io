@@ -1,0 +1,112 @@
+/*
+Red     Green   Blue
+FCC     CFC     CCF
+F00     0F0     00F
+300     030     003
+*/
+
+/* MOBILE LAYOUT */
+
+@font-face {
+    font-family: dogica;
+    src: url(../resources/dogica/TTF/dogica.ttf);
+}
+@font-face {
+    font-family: dogica-bold;
+    src: url(../resources/dogica/TTF/dogicabold.ttf);
+}
+
+[class="col-"]{
+    width: 100%;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #000;
+    color: #FFF;
+    margin-left: 50px;
+}
+
+nav th{
+    font-family: dogica;
+    padding: 30px;
+}
+
+h1{
+    font-family: dogica-bold;
+}
+
+a{
+    text-decoration: none;
+    color: #F00;
+}
+
+a:hover {
+    color: #0F0;
+}
+
+.extend{display: none;}
+
+footer{
+    font-size: 75%;
+    margin-top: 50px;
+}
+
+.e{
+    color:#F00;
+}
+.t{
+    color:#0F0;
+}
+.h{
+    color:#44F;
+}
+
+
+
+/* TABLET LAYOUT */
+
+@media only screen and (min-width: 768px){
+
+/* Grid System */
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+}
+
+
+
+
+
+/* DESKTOP LAYOUT */
+
+@media only screen and (min-width: 992px){
+
+/* Grid System */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.extend{display: inline;}
+
+}
